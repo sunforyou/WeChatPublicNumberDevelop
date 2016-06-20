@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JKWeChatUserHeadImageDownload" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okH-fo-SlS">
+                                <rect key="frame" x="180" y="464" width="63" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="tnO-jy-Z6y"/>
+                                    <constraint firstAttribute="height" constant="30" id="u12-y0-x3v"/>
+                                </constraints>
+                                <state key="normal" title="下载URL"/>
+                                <connections>
+                                    <action selector="startDownloadHeadImageURL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sj1-yR-Vxs"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ucF-Hf-uTy">
+                                <rect key="frame" x="180" y="50" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="KOm-YW-g5H"/>
+                                    <constraint firstAttribute="height" constant="128" id="Nvu-IP-vE2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZVb-Bj-POU">
+                                <rect key="frame" x="180" y="188" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="ANw-li-vyw"/>
+                                    <constraint firstAttribute="height" constant="128" id="zhm-pF-w5D"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="placeholder.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iH0-qV-aY2">
+                                <rect key="frame" x="180" y="326" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="wIr-QS-FBu"/>
+                                    <constraint firstAttribute="width" constant="240" id="yfp-XK-Lg0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGz-dq-WZd">
+                                <rect key="frame" x="357" y="464" width="63" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="FjB-pz-zgb"/>
+                                    <constraint firstAttribute="height" constant="30" id="llE-0e-h3m"/>
+                                </constraints>
+                                <state key="normal" title="下载头像"/>
+                                <connections>
+                                    <action selector="startDownloadHeadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVe-pO-k7T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hGz-dq-WZd" firstAttribute="trailing" secondItem="iH0-qV-aY2" secondAttribute="trailing" id="06g-tu-Q0C"/>
+                            <constraint firstItem="iH0-qV-aY2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="86M-dO-Bkj"/>
+                            <constraint firstItem="ucF-Hf-uTy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JFl-PV-hb1"/>
+                            <constraint firstItem="okH-fo-SlS" firstAttribute="top" secondItem="iH0-qV-aY2" secondAttribute="bottom" constant="10" id="LLJ-jK-LMj"/>
+                            <constraint firstItem="ZVb-Bj-POU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TDJ-cK-R35"/>
+                            <constraint firstItem="ucF-Hf-uTy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="Vxh-V6-Bom"/>
+                            <constraint firstItem="iH0-qV-aY2" firstAttribute="top" secondItem="ZVb-Bj-POU" secondAttribute="bottom" constant="10" id="azf-ds-aRn"/>
+                            <constraint firstItem="ZVb-Bj-POU" firstAttribute="top" secondItem="ucF-Hf-uTy" secondAttribute="bottom" constant="10" id="dAv-9b-g8F"/>
+                            <constraint firstItem="hGz-dq-WZd" firstAttribute="top" secondItem="iH0-qV-aY2" secondAttribute="bottom" constant="10" id="fVm-Il-AVn"/>
+                            <constraint firstItem="okH-fo-SlS" firstAttribute="leading" secondItem="iH0-qV-aY2" secondAttribute="leading" id="xLq-RP-EDl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="downloadHeadImageButton" destination="hGz-dq-WZd" id="NV4-2p-5Qf"/>
+                        <outlet property="headImageOfUserOne" destination="ucF-Hf-uTy" id="Zfg-WD-c2U"/>
+                        <outlet property="headImageOfUserThree" destination="iH0-qV-aY2" id="mRm-br-Bje"/>
+                        <outlet property="headImageOfUserTwo" destination="ZVb-Bj-POU" id="53X-kP-5zt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="358" y="221"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="placeholder.jpg" width="180" height="180"/>
+    </resources>
+</document>

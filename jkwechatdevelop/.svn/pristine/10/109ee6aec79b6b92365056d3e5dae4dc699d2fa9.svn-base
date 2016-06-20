@@ -1,0 +1,44 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: sun
+ * Date: 16/6/11
+ * Time: 下午6:19
+ */
+
+require_once "gettoken.php";
+
+/** 获取url */
+$appid = "wxb2aba85913b01efb";
+$secret = "d7ecfc59d0786d52db28edd480384cd7";
+$tokenurl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".$appid."&secret=".$secret."";
+
+/** 获取access_token */
+$output = gettoken($tokenurl);
+$token = $output['access_token'];
+
+/** 获取用户openid */
+$userurl = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=".$token."";
+$userouput = gettoken($userurl);
+$userarr = (array)$userouput['data'];
+
+/** 输出所有用户的openid*/
+//foreach ($userarr['openid'] as $value) {
+//    echo $value."<br />";
+//}
+
+/** 获取第0个小伙的用户信息 */
+//$useropenid = $userarr['openid'][0];
+//$infourl = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$token."&openid=".$useropenid."&lang=zh_CN ";
+//$userinfo = gettoken($infourl);
+//$headimgurl = $userinfo['headimgurl'];
+//echo $headimgurl."<br />";
+//print_r($userinfo);
+
+/** 获取用户头像url */
+foreach ($userarr['openid'] as $value) {
+    $infourl = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$token."&openid=".$value."&lang=zh_CN ";
+    $userinfo = gettoken($infourl);
+    print_r($userinfo['headimgurl']."<br />");
+//    print_r($userinfo['headimgurl']);
+}

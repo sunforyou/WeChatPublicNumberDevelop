@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A439555F1D0C3F7100793033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439555E1D0C3F7100793033 /* AppDelegate.swift */; };
+		A43955611D0C3F7100793033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43955601D0C3F7100793033 /* ViewController.swift */; };
+		A43955641D0C3F7100793033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43955621D0C3F7100793033 /* Main.storyboard */; };
+		A43955661D0C3F7100793033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43955651D0C3F7100793033 /* Assets.xcassets */; };
+		A43955691D0C3F7100793033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43955671D0C3F7100793033 /* LaunchScreen.storyboard */; };
+		A43955711D0C407600793033 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A43955701D0C407600793033 /* placeholder.jpg */; };
+		A43955731D0C4DAE00793033 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43955721D0C4DAE00793033 /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A439555B1D0C3F7100793033 /* JKWeChatUserHeadImageDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKWeChatUserHeadImageDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A439555E1D0C3F7100793033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A43955601D0C3F7100793033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A43955631D0C3F7100793033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43955651D0C3F7100793033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43955681D0C3F7100793033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A439556A1D0C3F7100793033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43955701D0C407600793033 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		A43955721D0C4DAE00793033 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43955581D0C3F7100793033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43955521D0C3F7100793033 = {
+			isa = PBXGroup;
+			children = (
+				A439555D1D0C3F7100793033 /* JKWeChatUserHeadImageDownload */,
+				A439555C1D0C3F7100793033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A439555C1D0C3F7100793033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A439555B1D0C3F7100793033 /* JKWeChatUserHeadImageDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A439555D1D0C3F7100793033 /* JKWeChatUserHeadImageDownload */ = {
+			isa = PBXGroup;
+			children = (
+				A439555E1D0C3F7100793033 /* AppDelegate.swift */,
+				A43955701D0C407600793033 /* placeholder.jpg */,
+				A43955601D0C3F7100793033 /* ViewController.swift */,
+				A43955721D0C4DAE00793033 /* StringExtension.swift */,
+				A43955621D0C3F7100793033 /* Main.storyboard */,
+				A43955651D0C3F7100793033 /* Assets.xcassets */,
+				A43955671D0C3F7100793033 /* LaunchScreen.storyboard */,
+				A439556A1D0C3F7100793033 /* Info.plist */,
+			);
+			path = JKWeChatUserHeadImageDownload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A439555A1D0C3F7100793033 /* JKWeChatUserHeadImageDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A439556D1D0C3F7100793033 /* Build configuration list for PBXNativeTarget "JKWeChatUserHeadImageDownload" */;
+			buildPhases = (
+				A43955571D0C3F7100793033 /* Sources */,
+				A43955581D0C3F7100793033 /* Frameworks */,
+				A43955591D0C3F7100793033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKWeChatUserHeadImageDownload;
+			productName = JKWeChatUserHeadImageDownload;
+			productReference = A439555B1D0C3F7100793033 /* JKWeChatUserHeadImageDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43955531D0C3F7100793033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					A439555A1D0C3F7100793033 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SCQ86T8B64;
+					};
+				};
+			};
+			buildConfigurationList = A43955561D0C3F7100793033 /* Build configuration list for PBXProject "JKWeChatUserHeadImageDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43955521D0C3F7100793033;
+			productRefGroup = A439555C1D0C3F7100793033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A439555A1D0C3F7100793033 /* JKWeChatUserHeadImageDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43955591D0C3F7100793033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43955691D0C3F7100793033 /* LaunchScreen.storyboard in Resources */,
+				A43955711D0C407600793033 /* placeholder.jpg in Resources */,
+				A43955661D0C3F7100793033 /* Assets.xcassets in Resources */,
+				A43955641D0C3F7100793033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43955571D0C3F7100793033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43955611D0C3F7100793033 /* ViewController.swift in Sources */,
+				A439555F1D0C3F7100793033 /* AppDelegate.swift in Sources */,
+				A43955731D0C4DAE00793033 /* StringExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A43955621D0C3F7100793033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43955631D0C3F7100793033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A43955671D0C3F7100793033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43955681D0C3F7100793033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A439556B1D0C3F7100793033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A439556C1D0C3F7100793033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A439556E1D0C3F7100793033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKWeChatUserHeadImageDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.JKWeChatUserHeadImageDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A439556F1D0C3F7100793033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKWeChatUserHeadImageDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.JKWeChatUserHeadImageDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43955561D0C3F7100793033 /* Build configuration list for PBXProject "JKWeChatUserHeadImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A439556B1D0C3F7100793033 /* Debug */,
+				A439556C1D0C3F7100793033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A439556D1D0C3F7100793033 /* Build configuration list for PBXNativeTarget "JKWeChatUserHeadImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A439556E1D0C3F7100793033 /* Debug */,
+				A439556F1D0C3F7100793033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43955531D0C3F7100793033 /* Project object */;
+}
